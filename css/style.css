@@ -1,0 +1,135 @@
+body{
+  background-image:url(https://dl.dropbox.com/s/882hjmtkdenhv3a/vine%20border.png?dl=0);
+  background-size: 100%;
+  overflow: hidden;
+  font-family: 'Chicle', cursive;
+  font-size: 25px;
+  text-shadow: 1px 1px 0.5px rgba(255, 255, 255, 1), -1px -1px 0.5px rgba(255, 255, 255, .7);
+}
+.vine{
+  height:500px;
+  position:absolute;
+  margin-left:20%;
+}
+.tomato{
+  width: 100px; 
+  height: 100px; 
+  background-color: red;
+  background-image: url(https://dl.dropbox.com/s/t5z94dfxa1heeiw/transparent%20tomato2.png?dl=0);
+  background-size:cover;
+  -moz-border-radius: 50px; 
+  -webkit-border-radius: 50px; 
+  border-radius: 50px;
+  position:absolute;
+  margin-top: 50px;
+  margin-left: 20%;
+  box-shadow: inset 3px -21px 58px 6px rgba(0,0,0,0.75),  -5px 5px 10px -3px rgba(0,0,0,5);  
+  
+}
+#reset, #breakTime{
+  margin-top: 200px;
+  
+}
+.time{
+  margin-left:60%;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+}
+
+#vine2{
+  margin-left:60%;
+  
+}
+#timer{
+  margin-left:35%;
+  height:250px;
+  width:250px;
+  border-radius:50%;
+  background-color:rgb(102, 255, 102);
+}
+table
+{
+  margin-top:-10px;
+  margin-left:-10px;
+
+  
+}
+p{
+  margin-top:50px;
+  
+  
+}
+#workOrBreak{
+  margin-top:120px;
+  font-sizr:35px;
+}
+#timerText{
+  margin-top:-10px;
+}
+.center{
+  height:75px;
+  opacity:0.7;
+  margin-left:10%;
+  margin-top:15%;
+  border-radius:50%;
+  
+}
+.center:hover, button:hover {
+  box-shadow: inset -3px -3px 13px 5px rgba(255,0,0,.5);
+  opacity:1;
+  cursor:pointer;
+}
+.center:active{
+  height:70px;
+  margin-left:15%
+}
+
+button{
+  border-radius:50%;
+  background:none;
+  border:none;
+  font-weight:bold;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
+}
+a{
+  color:green;
+  position:fixed;
+  margin-top:10%;
+  margin-left: -17%;
+}
+a:hover{
+  color:red;
+}
+h1{
+  display: inline;
+  font-size:3em;
+  position: fixed;
+  margin-top: 3%;
+    margin-left:-37%
+}
+.min{font-size:15px;
+  padding:0px;
+  margin-top:5px;
+  
+  
+}
+#sound{
+  height:75px;
+  width:75px;
+  margin-top:400px;
+  border-radius:50%;
+  background-color: rgb(255, 112, 31);
+  box-shadow: inset 3px -21px 58px 6px rgba(0,0,0,0.5),  -5px 5px 10px -3px rgba(0,0,0,3);
+}
+#soundbtn{
+  height:55px;
+  margin-top:20%;
+  
+}
+#soundbtn:hover{
+  opacity:1;
+}
+#soundbtn:active{
+  height:50px;
+}
