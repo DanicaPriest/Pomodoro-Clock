@@ -105,7 +105,7 @@ $(document).ready(function(){
       setInterval(function(){
         
         $("#timerText").html(cdNum + " sec");
-        $("#playbtn").attr("src", "http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/simple-red-glossy-icons-media/002999-simple-red-glossy-icon-media-a-media27-pause-sign.png");
+        $("#playbtn").attr("src", "https://lh3.googleusercontent.com/_mMZh5opcRCvt258NACLoH2GRkE2JyTQzltSrIW80V58yGJP_-Z-eX_2X-v3NYeELsXTunS2HWIoeRyz5rD25VKkpLXrnjsSbmn0Q3bWfkXUyvOsEEx234wfINpx01Be4t0F1gLwEBQVmz4IwzkBzMqHQGLCh2MudVkdttlGXI-KNcwNYUmwCN4Ncmr0OTpRxM_6NvRFlBtIC4hfKdmRXi2tVYkRhy3bKTeCDFl_1eiS2Z-nPvW75BNuCaTV_WUYvvqohl_0HJ3EpVdhn04ctKQ2Xzre5q5reDS1bPJdBs0NERuBBCLCxx63mW-DhZmp6x8YiSS4CbQ7JkGkl6xnqhszU8jmR9XtS74shtxRKqSO0VqG0w5WjvA47DimOmlgOpdKIdrZ1lJXLYTm1_JEOUEasAn1oxFX7Hxh-Nqo4kFIRHduw6gqbqoIN4lN2fLgWaVIqihh7dx7lu2EkjL6ZDMcswqBAe8kDiMrJzpV-7a7EVyuY2If9byBB6EzS5iF-XcVnWrO2O1Mjb9WlFvOwYvPZDwh_IJUQ1MQAE7PRHmtdwYgqUnjwtWeHLaPVppeTpNNwDBElYTbtaxJ4diEH33-JP798voi6MzDQ8e1=s420-no");
         paused = true;
         started = true;
   if (cdNum == 0){done();
@@ -118,7 +118,7 @@ $(document).ready(function(){
       clearInterval(timerId);
       clearInterval(breakTimerId);
         paused = false;
-        $("#playbtn").attr("src", "http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/simple-red-glossy-icons-arrows/009670-simple-red-glossy-icon-arrows-triangle-solid-right.png");
+        $("#playbtn").attr("src", "https://lh3.googleusercontent.com/tfSZVDVyE8LYFMMFyWX-CclvVIZdDmusVUkJxkPuDU4kC7wbmgUODin7gB6-UfVIbEqsDIY-lzTME_aXpTmBN2mw4uKZ-37l9C-KV6g4voToTIA7j2bamN3S6Ltzv1GgSkzeCqCDkDd-_XBya0DGAgsFyiJDdYP3njX4NUVvJlU-nZM9mP6yop2bhIr5rdbfDLGKXhGnS9OAI5-Qw5PjHhOqKkAqKx9xEoGaowulXvmtlXds0mvyH3l0IVwVd5PW0jFZeyTqhVxu245y_zAVcrUJ4eX_Ef4o00c8GwoIUIud8ZfBKx4rIjkdyPm96Ivg7I1kXbI2HwkYwvnK8uU-jC3q_HZGoVwcKG8Msfo20R19I61HRqRWGlIpCVP4g69LkyDANzMnNjsdLCi3P-zZxHVDMZZdoDxpuVegIfyddCvboNVsIGyHN2RVTJ7j5kKAQ1E5SBue-nkSgb5xGSST9CmQCTqZEWVh8OFw5nnSY-nzo8Px8Ey0oKsw2s8aCmeOQUUrYcxkgyKG53k7D-3oqY5NxyJy83ONvuXZZ3KL-Ie6hFHQLsagpO5NfytHuXaaS8YrAxkiaGDJvdIrm259OqbLUm5Wmqswpun-nYGi=s225-no");
       }
   }      
     );
