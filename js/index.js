@@ -134,7 +134,7 @@ $(document).ready(function(){
       $("#workOrBreak").html(" ");
   $("#timerText").html(" ");
       started = false;
-      $("#playbtn").attr("src", "http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/simple-red-glossy-icons-arrows/009670-simple-red-glossy-icon-arrows-triangle-solid-right.png");
+      $("#playbtn").attr("src", "https://lh3.googleusercontent.com/O60wXmwI48Ii7aPOJYUUzKHxNdxGCsZ1bS8cpLk1XNLXPFX5fZ2gMgjtQiriMaVU1T4BKYA4DpKpc8BhUuCT-Y1Bbq4mH9NBWVgyvHa_VO8kWvaMyMfQRKSJ6SuikmvGVYgLmQsXO1A8WzCcdhg8-BzA0P-7uuu_u_dGUFLF5py4z2gPUaUFfNPcWqz4Ikz_kPHbQj-t5U4sZlScleV317t82bdaAOJDedtZPD2oyoHUG83tpYjT18VleDC6c1_mEt85s0Vi7au8VnvFJnriYtcvFBR-kKdinvH6TqiTYyYNnBHMJVvK1Gik26RIQNwWENmHzf6bHPcGCDjXY_cjEN8GNOqZk7oJApkB3iYaDAz4oRYbo3071DrVD9Ayhp86lzl8ySXiNc_2xekuCyhFKeypqkPGevjNJLab52BO96f5KE8mVJzby4VUgoETh8l7R7llOpAeFK-lnyebBP0Vj0HSlvsUXqUSprYlkqV4-iVuNOwkY3Vzes3DvugKqp7KJqtYjgbAAJHO0v3klgTe-H8CNBTEjyx1vfwQ28LqXhGCPbPcjXT2BBbSA223MrvT6z-hRgZGd6lolCIMNeggwxZueSFc9rbm9whkU4pr=s225-no");
     });
   $("#soundbtn").click(function(){
     if (!muted){
